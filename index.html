@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias del mundo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;700&family=Ibarra+Real+Nova:wght@700&family=Oswald:wght@300&family=Quicksand:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="contenedor-text">
+                <h1>Aquí puedes encontrar las noticias del mundo</h1>
+                <p>Puedes buscar noticias sobre empresas, solo tienes que poner el nombre de la empresa en el buscador.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor-main">
+            <input type="search" placeholder="escribe el nombre de la empresa" class="input-text">
+            <button class="button">buscar</button>
+            <section class="contenedor-noticias">
+            </section>
+            <img src="images/loader.gif" class="loader" alt="cargando">
+            <p class="error"></p>
+        </div>
+        <article class="contenedor-btn">
+            <button class="prev">atrás</button>
+            <button class="next">siguiente</button>
+        </article>
+   </main>
+   <script src="main.js" type="module"></script>
+</body>
+</html>
